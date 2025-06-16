@@ -194,6 +194,7 @@ setup(
     ],
     extras_require={
         "dev": ["pre-commit"],
+        "test": ["pytest"]
     },
     python_requires=">=3.9,<3.12",
     packages=find_packages(),
